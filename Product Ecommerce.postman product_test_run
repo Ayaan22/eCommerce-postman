@@ -1,0 +1,173 @@
+{
+	"id": "9c8452c9-a0ac-47cc-b14f-ab93da6c066d",
+	"name": "Product Ecommerce",
+	"timestamp": "2022-03-11T06:24:49.144Z",
+	"collection_id": "19955494-d5451470-c5ca-4c04-bf60-d63f174420f6",
+	"folder_id": 0,
+	"environment_id": "19955494-818fdd72-6c55-478c-a9c8-25f47c41804f",
+	"totalPass": 5,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "202b1930-85a6-4659-be1b-a578add2f680",
+			"name": "get all products",
+			"url": "https://ecommerceservice.herokuapp.com/products",
+			"time": 1985,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1985
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "4ec6a01d-5191-45cf-90c7-ec495a9fbdd4",
+			"name": "create product",
+			"url": "https://ecommerceservice.herokuapp.com/products",
+			"time": 662,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				662
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "8eb694ed-50c2-4bf8-8190-c965ac260501",
+			"name": "product by id",
+			"url": "https://ecommerceservice.herokuapp.com/products/622aeb34e89c71001709163b",
+			"time": 667,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				667
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "996d922c-ced0-42ef-9c18-bbb587d9e12c",
+			"name": "update",
+			"url": "https://ecommerceservice.herokuapp.com/products/622aeb34e89c71001709163b",
+			"time": 720,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				720
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "59b71445-d20d-4674-9482-e9457f1fb449",
+			"name": "delete",
+			"url": "https://ecommerceservice.herokuapp.com/products/622aeb34e89c71001709163b",
+			"time": 666,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				666
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 4700,
+	"collection": {
+		"requests": [
+			{
+				"id": "202b1930-85a6-4659-be1b-a578add2f680",
+				"method": "GET"
+			},
+			{
+				"id": "4ec6a01d-5191-45cf-90c7-ec495a9fbdd4",
+				"method": "POST"
+			},
+			{
+				"id": "8eb694ed-50c2-4bf8-8190-c965ac260501",
+				"method": "GET"
+			},
+			{
+				"id": "996d922c-ced0-42ef-9c18-bbb587d9e12c",
+				"method": "PATCH"
+			},
+			{
+				"id": "59b71445-d20d-4674-9482-e9457f1fb449",
+				"method": "DELETE"
+			}
+		]
+	}
+}
